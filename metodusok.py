@@ -29,8 +29,10 @@ def szazalekososztalyzat(szazalekoseredmeny):
             return "Közepes"
         elif (szazalekoseredmeny >= 80 and szazalekoseredmeny < 90):
             return "Jó"
-        else:
+        elif (szazalekoseredmeny >= 90 and szazalekoseredmeny <= 100):
             return "Jeles"
+        else:
+            return "Hiba: érvénytelen százalék!"
 
 def globaliskiiras(pozitivEReturn:str,egyjegyuEszam:int,kisebbszomszed:int, nagyobbszomszed:int, szazalekososztalyzat):
     if not (pozitivEReturn == ""):
