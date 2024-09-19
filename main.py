@@ -63,11 +63,17 @@ bekertszam = gyakorlok.szambekeres()
 abszolutszam = gyakorlok.abszolutertek(bekertszam)
 
 #####################################
+#         // 2. FELADAT //          #
+#####################################
+
+ketjegyuszam, ketjegyuE = gyakorlok.ketjegyuE(bekertszam)
+
+#####################################
 #      // GLOBÁLIS KIÍRÁS //        #
 #      MINDIG AZ ALJÁN LEGYEN       #
 #####################################
 
-gyakorlok.globalisprintgyakorlo(abszolutszam)
+gyakorlok.globalisprintgyakorlo(abszolutszam, ketjegyuszam, ketjegyuE)
 
 
 
