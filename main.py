@@ -1,38 +1,53 @@
-import metodusok
+#import metodusok
+
+#-----------------------------------------------------------############################################################-----------------------------------------------------------#
+#---------------------------------------------------------- #     ELÁGAZÁS FELADATOK // SZEDD KI KOMMENTEKEBŐL         #-----------------------------------------------------------#
+#-----------------------------------------------------------#            HA MŰKÖDÉSRE SZERETNÉD BÍRNI                  #-----------------------------------------------------------#
+#-----------------------------------------------------------############################################################-----------------------------------------------------------#
 
 #####################################
 # BEKÉRÉS // MINDEN FELADATHOZ KELL #
 #####################################
-bekerendoszam = metodusok.szambekeres()
+#bekerendoszam = metodusok.szambekeres()
 
 #####################################
 #         // 1. FELADAT //          #
 #####################################
 
-pozitivE = metodusok.pozitivE(bekerendoszam)
+#pozitivE = metodusok.pozitivE(bekerendoszam)
 
 #####################################
 #         // 2. FELADAT //          #
 #####################################
 
-egyjegyuEszam = metodusok.egyjegyuE(bekerendoszam)
-kisebbszomszed, nagyobbszomszed = metodusok.szomszedszamok(egyjegyuEszam)
+#egyjegyuEszam = metodusok.egyjegyuE(bekerendoszam)
+#kisebbszomszed, nagyobbszomszed = metodusok.szomszedszamok(egyjegyuEszam)
 
 #####################################
 #         // 3. FELADAT //          #
 #####################################
 
-szazalekososztalyzat = metodusok.szazalekososztalyzat(bekerendoszam)
+#szazalekososztalyzat = metodusok.szazalekososztalyzat(bekerendoszam)
 
 #####################################
 #         // 4. FELADAT //          #
 #####################################
 
-egeszszamosztalyzat = metodusok.egeszszamososztalyzat(bekerendoszam)
+#egeszszamosztalyzat = metodusok.egeszszamososztalyzat(bekerendoszam)
 
 #####################################
 #      // GLOBÁLIS KIÍRÁS //        #
 #      MINDIG AZ ALJÁN LEGYEN       #
 #####################################
 
-metodusok.globaliskiiras(pozitivE, egyjegyuEszam, kisebbszomszed, nagyobbszomszed, szazalekososztalyzat, egeszszamosztalyzat)
+#metodusok.globaliskiiras(pozitivE, egyjegyuEszam, kisebbszomszed, nagyobbszomszed, szazalekososztalyzat, egeszszamosztalyzat)
+
+
+#-----------------------------------------------------------############################################################-----------------------------------------------------------#
+#---------------------------------------------------------- #     GYAKORLÓ FELADATOK // SZEDD KI KOMMENTEKEBŐL         #-----------------------------------------------------------#
+#-----------------------------------------------------------#            HA MŰKÖDÉSRE SZERETNÉD BÍRNI                  #-----------------------------------------------------------#
+#-----------------------------------------------------------############################################################-----------------------------------------------------------#
+
+
+
+
