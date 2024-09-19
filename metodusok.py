@@ -63,3 +63,5 @@ def globaliskiiras(pozitivEReturn:str,egyjegyuEszam:int,kisebbszomszed:int, nagy
         print(f"Az egész számos osztályzat eredménye: Jó ({egeszSzamOsztalyzat})")
     elif (egeszSzamOsztalyzat == 5):
         print(f"Az egész számos osztályzat eredménye: Jeles ({egeszSzamOsztalyzat})")
+    elif (egeszSzamOsztalyzat != 5 and egeszSzamOsztalyzat != 4 and egeszSzamOsztalyzat != 3 and egeszSzamOsztalyzat != 3 and egeszSzamOsztalyzat != 2 and egeszSzamOsztalyzat != 1):
+        print("Érvénytelen egész számos osztályzat!")
