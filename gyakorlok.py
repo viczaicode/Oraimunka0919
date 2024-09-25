@@ -20,6 +20,8 @@ def ketjegyuE(ketjegyuszam:int):
         ketjegyuE = False
         return ketjegyuszam, ketjegyuE
     
+#21
+    
 def legkisebb():
     a:int = int(input("Add meg az első számot: "))
     b:int = int(input("Add meg a második számot: "))
@@ -31,15 +33,16 @@ def legkisebb():
         legkisebb = b
     if c < legkisebb:
         legkisebb = c
-    print(f"A legkisebb szám a:", legkisebb)
+    return legkisebb
     
 
 
 
 
-def globalisprintgyakorlo(abszolutszam, ketjegyuszam, ketjegyuE):
+def globalisprintgyakorlo(abszolutszam, ketjegyuszam, ketjegyuE, legkisebb):
     print(f"A beírt számnak az abszolútértéke math.fabs-al számolva: {abszolutszam}")
     if (ketjegyuE):
         print(f"A beírt számot leellenőriztem, és kétjegyű. A szám {ketjegyuszam}")
     else:
         print(f"A beírt számot leellenőriztem, és nem kétjegyű. A szám {ketjegyuszam}")
+    print(f"A legkisebb szám a 3 beírt számból: {legkisebb}")
