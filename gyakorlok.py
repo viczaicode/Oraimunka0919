@@ -20,6 +20,19 @@ def ketjegyuE(ketjegyuszam:int):
         ketjegyuE = False
         return ketjegyuszam, ketjegyuE
     
+def legkisebb():
+    a:int = int(input("Add meg az első számot: "))
+    b:int = int(input("Add meg a második számot: "))
+    c:int = int(input("Add meg a harmadik számot: "))
+
+    legkisebb = a
+
+    if b < legkisebb:
+        legkisebb = b
+    if c < legkisebb:
+        legkisebb = c
+    print(f"A legkisebb szám a:", legkisebb)
+    
 
 
 
